@@ -1,9 +1,4 @@
-const { createProduct,
-    getAllProducts,
-    getProductById,
-    deleteProductById,
-    updateProductById
-} = require('../Controllers/ProductControllers');
+const { createProduct,getAllProducts,getProductById, deleteProductById, updateProductById} = require('../controllers/ProductControllers');
 const { cloudinaryFileUploader } = require('../Middlewares/FileUplaoder');
 
 const router = require('express').Router();
